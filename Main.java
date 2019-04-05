@@ -36,14 +36,14 @@ public class Main extends Application {
 	            @Override
 	            public void handle(KeyEvent e) {
 	                KeyCode key=e.getCode();
-	             /* добавить обработку управления клавишами */
+	             /* РґРѕР±Р°РІРёС‚СЊ РѕР±СЂР°Р±РѕС‚РєСѓ СѓРїСЂР°РІР»РµРЅРёСЏ РєР»Р°РІРёС€Р°РјРё */
 	                
 	            }
 
 	        });
 	        Scene scene = new Scene(root, size, size);
 
-	        primaryStage.setTitle("Заголовок");
+	        primaryStage.setTitle("Г‡Г ГЈГ®Г«Г®ГўГ®ГЄ");
 	        primaryStage.setScene(scene);
 	        primaryStage.show();
 	}
